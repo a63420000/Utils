@@ -1,0 +1,33 @@
+A collection of utillities
+
+licensed under Apache 2.0
+
+built with maven 3.x:
+
+	cd <project root>
+	mvn clean install
+	
+### Maven configuration
+
+include the hellblazer snapshot repository:
+
+    <repository>
+        <id>hellblazer-snapshots</id>
+        <url>https://repository-hal900000.forge.cloudbees.com/snapshot/</url>
+    </repository>
+    
+add as dependency:(released version)
+
+    <dependency>
+        <groupId>com.hellblazer</groupId>
+        <artifactId>utils</artifactId>
+        <version>0.0.3</version>
+    </dependency>
+    
+add as dependency:(current version)
+
+    <dependency>
+        <groupId>com.hellblazer</groupId>
+        <artifactId>utils</artifactId>
+        <version>0.0.4-SNAPSHOT</version>
+    </dependency>
